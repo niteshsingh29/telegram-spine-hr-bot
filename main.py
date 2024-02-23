@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import MessageHandler, filters, Application, ContextTypes, CommandHandler
 
 # Bot configuration
-TOKEN: Final = '6932311035:AAGZ-2TD1PUOQ9h2WpsGg3uNeO668NGMl2A'
+TOKEN: Final = 'TOKEN'
 BOT_USERNAME: Final = '@spine_hr_bot'
 
 # Handler for the /start command
