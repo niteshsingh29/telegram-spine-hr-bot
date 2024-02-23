@@ -48,7 +48,7 @@ def main():
         app.add_handler(MessageHandler(filters.TEXT, handle_message))
 
         print('Polling for updates...')
-        app.run_polling(poll_interval=1)
+        app.run_polling(poll_interval=2)
     except Exception as e:
         print(f"Error in main: {e}")
 
